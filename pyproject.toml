@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "course-project"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Rickert <ethanrickert0429@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+psycopg2-binary = "^2.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
