@@ -57,9 +57,11 @@ Overall the project was relatively straightforward, but an interesting learning 
 - [x] Phishing Methods
 
 #### email
+
 ![alt](email-phish.png)
 
 #### tweet
+
 ![alt](tweet-phish.png)
 
 - [x] Database
@@ -71,12 +73,12 @@ Overall the project was relatively straightforward, but an interesting learning 
 
 [Demonstration Video](https://drive.google.com/file/d/1dVZTz4nJFag7lLXWXSMSS37td6s0HDyZ/view?usp=share_link)
 
-[Source Code & Instructions](https://github.com/Ethan0429/cs-366-project/tree/main)
+[Source Code & Instructions](https://github.com/Ethan0429/cs-366-project/tree/main#deployment-instructions)
 
 ## Deployment Instructions
 
-1. Clone the repository
-2. Install Docker
+1. Install Docker
+2. Clone the repository
 3. Run `make` in the root directory
 5. After a few seconds, the site should be up and running at `localhost:4000`. The database should be accessible at `localhost:8080` with the credentials being `postgres` for everything.
 6. To stop the containers and remove the images/db volumes, run `make clean`
