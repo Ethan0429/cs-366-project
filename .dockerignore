@@ -7,4 +7,6 @@ pyproject.toml
 poetry.lock
 db_data/
 .gitignore
-README.md
+*.md
+*.pdf
+*.png
